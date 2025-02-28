@@ -1,0 +1,46 @@
+# Root level
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+
+# Python / FastAPI Backend
+api/__pycache__/
+api/**/__pycache__/
+api/*.py[cod]
+api/*$py.class
+api/.pytest_cache/
+api/htmlcov/
+api/.coverage
+api/coverage/
+api/.env
+api/.env.*
+api/*.log
+api/logs/
+api/venv/
+api/env/
+api/.venv/
+api/ENV/
+api/dist/
+api/build/
+api/*.egg-info/
+
+# JavaScript / React Frontend
+app/node_modules/
+app/dist/
+app/dist-ssr/
+app/build/
+app/.env
+app/.env.*
+app/.env.local
+app/.env.development.local
+app/.env.test.local
+app/.env.production.local
+app/coverage/
+app/npm-debug.log*
+app/yarn-debug.log*
+app/yarn-error.log*
+app/pnpm-debug.log*
+app/lerna-debug.log*
+app/*.local
